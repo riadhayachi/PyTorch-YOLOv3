@@ -35,7 +35,7 @@ print(opt)
 
 cuda = torch.cuda.is_available() and opt.use_cuda
 
-os.makedirs('output', exist_ok=True)
+#os.makedirs('output', exist_ok=True)
 
 # Set up model
 model = Darknet(opt.config_path, img_size=opt.img_size)
